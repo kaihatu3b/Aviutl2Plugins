@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{6EEF9964-DAAF-159B-A3EA-5E180F6A5A77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParameterCopy", "plugins\parameter-copy\ParameterCopy.vcxproj", "{C19A5556-2D5B-D18C-F695-1A0A62151669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19A5556-2D5B-D18C-F695-1A0A62151669}.Debug|x64.ActiveCfg = Debug|x64
+		{C19A5556-2D5B-D18C-F695-1A0A62151669}.Debug|x64.Build.0 = Debug|x64
+		{C19A5556-2D5B-D18C-F695-1A0A62151669}.Release|x64.ActiveCfg = Release|x64
+		{C19A5556-2D5B-D18C-F695-1A0A62151669}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C19A5556-2D5B-D18C-F695-1A0A62151669} = {6EEF9964-DAAF-159B-A3EA-5E180F6A5A77}
+	EndGlobalSection
+EndGlobal
