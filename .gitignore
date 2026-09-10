@@ -6,28 +6,20 @@
 # User
 *.ini
 
-project/docs/html/
-project/docs/latex/
-
 # Project-generated files
-project/build/BuildInfo.json
-project/**/[Dd]ebug/
-project/**/[Rr]elease/
-project/**/.vscode/
-project/**/*.sln
-project/**/*.vcxproj
-project/**/*.csproj
-project/**/*.filters
-project/**/*.tlog
-project/**/*.lastbuildstate
-project/**/*.idb
-project/**/*.txt
-project/premake5.exe
-project/premake.zip
-
-# Keep Assimp libraries
-!project/externals/assimp/lib/Debug/
-!project/externals/assimp/lib/Release/
+plugins/**/[Dd]ebug/
+plugins/**/[Rr]elease/
+plugins/**/.vscode/
+plugins/**/*.sln
+plugins/**/*.vcxproj
+plugins/**/*.csproj
+plugins/**/*.filters
+plugins/**/*.tlog
+plugins/**/*.lastbuildstate
+plugins/**/*.idb
+plugins/**/*.txt
+premake5.exe
+plugins/premake.zip
 
 #DumpFile
 Dumps/
