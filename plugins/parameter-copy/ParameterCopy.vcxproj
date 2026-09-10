@@ -42,15 +42,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\out\Debug\AnotherPlugin\</OutDir>
-    <IntDir>..\..\build\obj\Debug\AnotherPlugin\</IntDir>
+    <OutDir>out\Debug\</OutDir>
+    <IntDir>build\obj\Debug\</IntDir>
     <TargetName>ParameterCopy</TargetName>
     <TargetExt>.aux2</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\out\Release\AnotherPlugin\</OutDir>
-    <IntDir>..\..\build\obj\Release\AnotherPlugin\</IntDir>
+    <OutDir>out\Release\</OutDir>
+    <IntDir>build\obj\Release\</IntDir>
     <TargetName>ParameterCopy</TargetName>
     <TargetExt>.aux2</TargetExt>
   </PropertyGroup>
@@ -67,7 +67,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <ImportLibrary>..\..\out\Debug\AnotherPlugin\ParameterCopy.lib</ImportLibrary>
+      <ImportLibrary>out\Debug\ParameterCopy.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -83,9 +83,12 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <ImportLibrary>..\..\out\Release\AnotherPlugin\ParameterCopy.lib</ImportLibrary>
+      <ImportLibrary>out\Release\ParameterCopy.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ParameterCopy.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

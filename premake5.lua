@@ -8,9 +8,6 @@ workspace "Aviutl2Plugins"
     cppdialect "C++17"
     configurations { "Debug", "Release" }
 
-    targetdir "out/%{cfg.buildcfg}/AnotherPlugin"
-    objdir "build/obj/%{cfg.buildcfg}/AnotherPlugin"
-
     includedirs {
         "external/aviutl2_sdk/include/aviutl2_sdk",
         "shared/include"
